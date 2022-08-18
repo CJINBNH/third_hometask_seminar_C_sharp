@@ -8,12 +8,11 @@ int[] result = new int[10];
 int count = 1;
 while (count <= N)
 {
-for (int i = 0; i < N; i++)
-{
-    result[i] = count * count * count;
-    count++;
-    Console.WriteLine(result[i]);
+    for (int i = 0; i < N; i++)
+    {
+        int cube = Convert.ToInt32(Math.Pow(count, 3));
+        result[i] = cube;
+        count++;
+        Console.WriteLine(result[i]);
+    }
 }
-}
-// string strg = string.Join(" ", result);
-// Console.WriteLine(strg);
