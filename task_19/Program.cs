@@ -24,15 +24,14 @@ else
     Console.WriteLine("Число должно быть пятизначным");
 }
 
-// while (stringLength == 5)
-// {
-// for (int i = 0; i < 2; i++)
-// {
-//     while (numberToString[i] == numberToString[(stringLength-1)-i])
+//не получилось добавить цикл
+// if (stringLength == 5)
+//     int i = 0;    
+//     while (numberToString[i] == numberToString[(stringLength-1)-i] && i < 3;)
 //     {
-//         Console.WriteLine($"Число {number} является палиндромом");
+//      i++
 //     }
-// }
+//      Console.WriteLine($"Число {number} является палиндромом");
 // } 
 // if (stringLength != 5)
 // {
